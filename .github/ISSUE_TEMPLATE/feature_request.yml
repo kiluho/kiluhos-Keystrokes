@@ -16,7 +16,4 @@ body:
   attributes:
     label: Are there any additional details?
     description: "If necessary, provide any additional details for this bug."
-    placeholder: "Example: I accidentally slipped on a banana this morning, maybe that caused this?"
-- type: markdown
-  attributes:
-    value: "## Thank you for using my mod and submitting your idea!"
+    placeholder: "Example: This would fix my attention span!"
