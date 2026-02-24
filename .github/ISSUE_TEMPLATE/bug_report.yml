@@ -1,19 +1,20 @@
 name: Bug Report
-description: Report an issue.
+description: How many legs does the bug have? Are you from Australia? Answer more questions in this form
 title: "[BUG]: "
 labels: ["bug"]
+assignees:
+  - kiluho
 body:
 - type: textarea
   attributes:
-    label: Description
-    description: "Please describe this bug and upload any additional screenshots."
+    label: Please describe this bug
+    description: "Please provide a detailed description of the issue. If necessary, upload screenshots using the button below."
     placeholder: "Example: When I start my game it crashes and tells me to follow kiluho on Twitch. I attached a picture of my feet. ..."
   validations:
     required: true
 - type: input
   attributes:
-    label: Mod Version
-    description: "Which version of kiluho's Keystrokes are you using?"
+    label: "Which version of kiluho's Keystrokes are you using?"
     placeholder: "Example: 1.0.5"
   validations:
     required: true
@@ -29,13 +30,12 @@ body:
     required: true
 - type: input
   attributes:
-    label: Minecraft Version
-    description: "Which Minecraft version are you using?"
+    label: Which Minecraft version are you using?
     placeholder: "Example: 1.21.10"
   validations:
     required: true
 - type: textarea
   attributes:
-    label: Additional details
+    label: Are there any additional details?
     description: "If necessary, provide any additional details for this bug."
     placeholder: "Example: I accidentally slipped on a banana this morning, maybe that caused this?"
