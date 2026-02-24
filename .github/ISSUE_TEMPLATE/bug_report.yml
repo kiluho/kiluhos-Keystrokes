@@ -17,11 +17,14 @@ body:
     placeholder: "Example: 1.0.5"
   validations:
     required: true
-- type: input
+- type: checkboxes
   attributes:
-    label: Operating System
-    description: "Which operating system are you using?"
-    placeholder: "Example: macOS 26 Tahoe"
+    label: Which operating system are you using?
+    description: Please prodide addtional details, like version numbers, below.
+    options:
+      - label: macOS
+      - label: Windows
+      - label: Linux
   validations:
     required: true
 - type: input
